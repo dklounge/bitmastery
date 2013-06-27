@@ -24,5 +24,5 @@ var primeFunction = function(length) {
 }
 
 var out = primeFunction(1000);
-fs.writeFileSync(outfile, out);  
-// console.log(out);
+// fs.writeFileSync(outfile, out);  
+console.log(out);
